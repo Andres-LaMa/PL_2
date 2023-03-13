@@ -108,7 +108,7 @@ int int_vector_push_back(IntVector *v, int item)
 
 void int_vector_pop_back(IntVector *v)
 {
-    if (v->size != 0)
+    if (v->size > 0)
     {
         v->size -= 1;
     }

@@ -6,7 +6,7 @@ int main(void)
 {
     IntVector *Victor;
     Victor = int_vector_new(10);
-    for (short i = 0; i < Victor->capacity-3; i++)
+    for (short i = 0; i < Victor->capacity; i++)
     {
         Victor->indicator[i] = i;
         Victor->size += 1;
